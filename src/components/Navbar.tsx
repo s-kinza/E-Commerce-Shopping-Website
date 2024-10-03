@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import Link from "next/link";
 const Navbar = () => {
   return (
@@ -12,10 +12,10 @@ const Navbar = () => {
             CATEGORIES
           </Link>
           <Link className="navbar__link relative" href="#">
-          MEN'S
+            MEN&apos;S {/* MEN'S ko MEN&apos;S se replace kiya */}
           </Link>
           <Link className="navbar__link relative" href="#">
-            WOMEN'S
+            WOMEN&apos;S {/* WOMEN'S ko WOMEN&apos;S se replace kiya */}
           </Link>
           <Link className="navbar__link relative" href="#">
             JEWELRY
